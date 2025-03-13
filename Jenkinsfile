@@ -18,7 +18,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Starting deployment...'
-                sh 'exit 1' // 🔥 Intentional error to make deployment fail
+                sh 'exit 1'
             }
         }
     }
